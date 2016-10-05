@@ -24,6 +24,15 @@ public class BouncingFiguresTester {
 		box.add(figure2);
 		BouncingFigure figure3= new BouncingRectangle(5, 10, 10, 10, 325.0, 100);
 		box.add(figure3);
+		BouncingFigure figure4= new BouncingRectangle(0, 400, 50, 50, 45.0, 100);
+		box.add(figure4);
+		BouncingFigure figure5= new BouncingRectangle(200, 0, 45, 45, -180, 450);
+		box.add(figure5);
+		BouncingFigure figure6= new BouncingCircle(200, 0, 45, 45, -100, 40);
+		box.add(figure6);
+		BouncingFigure figure7= new BouncingCircle(0, 410, 15, 15, 40, 100);
+        box.add(figure7);   
+		
 		
 		frame.add(box);
 		
