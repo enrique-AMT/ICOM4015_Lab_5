@@ -28,9 +28,9 @@ public class BouncingFiguresTester {
 		box.add(figure4);
 		BouncingFigure figure5= new BouncingRectangle(200, 0, 45, 45, -180, 450);
 		box.add(figure5);
-		BouncingFigure figure6= new BouncingCircle(200, 0, 45, 45, -100, 40);
+		BouncingFigure figure6= new BouncingCircle(200, 0, 45, -100, 40);
 		box.add(figure6);
-		BouncingFigure figure7= new BouncingCircle(0, 410, 15, 15, 40, 100);
+		BouncingFigure figure7= new BouncingCircle(0, 410, 15, 40, 100);
         box.add(figure7);   
 		
 		

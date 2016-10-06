@@ -15,6 +15,24 @@ public class BouncingBox extends JComponent {
 			f.draw(g); f.move();
 			// Add code here for Lab Q5
 			//
+			if(f.leftBorderCollision()){
+				f.setTrajectory(f.getTrajectory()+90);
+				f.draw(g); f.move();
+			}
+			if(f.rightBorderCollision(this.getWidth())){
+				f.setTrajectory(f.getTrajectory()+90);
+				f.draw(g); f.move();
+			}
+			if(f.upperBorderCollision()){
+				f.setTrajectory(f.getTrajectory()+90);
+				f.draw(g); f.move();
+
+
+			}
+			if(f.lowerBorderCollision(this.getHeight())){
+				f.setTrajectory(f.getTrajectory()+90);
+				f.draw(g); f.move();
+			}
 		}
 	}
 }
